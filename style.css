@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Courier Prime', monospace;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #45badd;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./robot.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.joke-button{
+    padding: .6rem 2rem;
+    background-color: #ff3482;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
