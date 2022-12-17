@@ -4,7 +4,6 @@ const speecher = new SpeechSynthesisUtterance();
 let joke = "";
 const jokeAPIurl = 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single';
 
-getJokeFromApi();
 async function getJokeFromApi() {
     try {
         const response = await fetch(jokeAPIurl);
